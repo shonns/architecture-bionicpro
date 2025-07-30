@@ -22,8 +22,26 @@ const ReportPage: React.FC = () => {
         }
       });
 
-      
+      if (!response.ok) {
+        const text = await response.text();
+        console.error('Response error:', response.status, text);
+        throw new Error('Failed to fetch report: ' + response.status);
+      }
+
+      // Получаем данные как JSON
+      const data = await response.json();
+      // Преобразуем в строку и создаём blob
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', 'reports.json');
+      document.body.appendChild(link);
+      link.click();
+      link.parentNode?.removeChild(link);
+      window.URL.revokeObjectURL(url);
     } catch (err) {
+      console.error('Download error:', err);
       setError(err instanceof Error ? err.message : 'An error occurred');
     } finally {
       setLoading(false);
