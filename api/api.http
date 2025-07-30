@@ -1,0 +1,12 @@
+@api_HostAddress = http://localhost:8000
+
+GET {{api_HostAddress}}/reports/
+Accept: application/json
+
+###
+
+# Пример запроса к /reports
+GET {{api_HostAddress}}/reports
+Accept: application/json
+
+###

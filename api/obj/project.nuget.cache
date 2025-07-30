@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "dgSpecHash": "/UihRTBXwYKw9/5yx1j2pt1PbwyrELGBghQSFaDAWmmf3apGOsmTCfVsOQ/+hXoaadVMATxZsUJ4VWsx0sTP5Q==",
+  "success": true,
+  "projectFilePath": "D:\\Study\\0.SPRINT_8\\architecture-bionicpro\\api\\api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.1\\microsoft.aspnetcore.openapi.8.0.1.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.30.0\\microsoft.identitymodel.abstractions.6.30.0.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.30.0\\microsoft.identitymodel.jsonwebtokens.6.30.0.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\microsoft.identitymodel.logging\\6.30.0\\microsoft.identitymodel.logging.6.30.0.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.10.0\\microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.10.0\\microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.30.0\\microsoft.identitymodel.tokens.6.30.0.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.30.0\\system.identitymodel.tokens.jwt.6.30.0.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\e.barnatskiy\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.30.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
